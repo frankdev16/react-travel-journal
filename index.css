@@ -1,5 +1,7 @@
 html, body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -7,7 +9,8 @@ body {
 }
 
 .container {
-    margin: 45px 40px;
+    /* margin: 45px 40px; */
+    padding: 1rem;
 }
 
 header {
@@ -71,7 +74,9 @@ article.journal-entry .main-image {
 
 .info-container h2.entry-title {
     margin-top: 7px;
-    margin-bottom: 17px;
+    margin-bottom: 7px;
+    min-height: 2.5rem;
+    font-size: 1.3rem;
 }
 
 .info-container p.trip-dates {
