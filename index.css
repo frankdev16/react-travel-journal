@@ -45,13 +45,13 @@ article.journal-entry .marker {
 article {
     background-color: #f0eff4;
     padding: 0.5rem;
-    height: auto;
+    height: 15rem;
     border-radius: 5px;
 }
 
 article.journal-entry .main-image-container {
     width: 150px;
-    /* height: 168px; */
+    /* height: 180px; */
     height: auto;
     overflow: hidden;
     border-radius: 5px;
@@ -100,7 +100,7 @@ article.journal-entry .main-image {
     overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .container {
         /* max-width: 800px; */
         margin: 0 auto;
@@ -115,7 +115,7 @@ article.journal-entry .main-image {
 
     article {
         width: 100%;
-        height: auto;
+        /* height: auto; */
         object-fit: cover;
     }
 
