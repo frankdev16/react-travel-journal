@@ -34,7 +34,7 @@ header > h1 {
 
 article.journal-entry {
     display: flex;
-    margin-bottom: 36px;
+    margin-bottom: 26px;
 }
 
 article.journal-entry .marker {
@@ -42,9 +42,17 @@ article.journal-entry .marker {
     margin-right: 4px;
 }
 
+article {
+    background-color: #f0eff4;
+    padding: 0.5rem;
+    height: auto;
+    border-radius: 5px;
+}
+
 article.journal-entry .main-image-container {
-    width: 125px;
-    height: 168px;
+    width: 150px;
+    /* height: 168px; */
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
     flex-shrink: 0;
@@ -76,7 +84,7 @@ article.journal-entry .main-image {
     margin-top: 7px;
     margin-bottom: 7px;
     min-height: 2.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .info-container p.trip-dates {
@@ -85,7 +93,7 @@ article.journal-entry .main-image {
 
 .info-container p.entry-text {
     line-height: 1.5;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
@@ -102,7 +110,7 @@ article.journal-entry .main-image {
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     article {
@@ -115,12 +123,12 @@ article.journal-entry .main-image {
         margin-top: 7px;
         margin-bottom: 7px;
         min-height: 2.5rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .info-container p.entry-text {
         line-height: 1.5;
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
