@@ -110,4 +110,20 @@ article.journal-entry .main-image {
         height: auto;
         object-fit: cover;
     }
+
+    .info-container h2.entry-title {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        min-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .info-container p.entry-text {
+        line-height: 1.5;
+        font-size: 1rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
 }
